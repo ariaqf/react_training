@@ -1,0 +1,40 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn run start
+
+PATH: 
+  /home/gabrielqf/.local/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.4.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/gabrielqf/git/react_training/alura/javascript-object-orientation/modularization/package.json: Unexpected string in JSON at position 108
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "bytebank",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "type":"module"
+    "scripts": {
+      "start": "node index.js"
+  }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
